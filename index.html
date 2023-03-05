@@ -27,7 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav ml-auto"> 
                             <li class="nav-item">
-                                <a href="#home" class="nav-link">About Me</a> 
+                                <a href="#about-section" class="nav-link">About Me</a> 
                             </li>
                             <li class="nav-item">
                                 <a href="#explore-head-section" class="nav-link">Projects</a>
@@ -36,7 +36,7 @@
                                 <a href="#create-head-section" class="nav-link">Contact Me</a>
                             </li>
                             <li class="nav-item">
-                                <a href="./Assets/Resume.pdf" class="nav-link" download="Resume.pdf">Resume</a>
+                                <!--<a href="./Assets/Resume.pdf" class="nav-link" download="Resume.pdf"> <button>Resume</button> </a>-->
                             </li>
                         </ul>
                     </div>
@@ -49,6 +49,22 @@
         </div>
     </header>
     
+    <section id="about-section"> <!--Will have a background-->
+        <div class="about-container"> 
+          <div class="row"> <!--Cause we want use the grid-->
+            <div class="col-md-6 order-2"> <!--Anything below a medium screen - it will stack on top of eachother-->
+                <img src="./Assets/images/flower.jpg" alt="" class="img-fluid m-5 rounded-circle" ><!--Add our image here.Img-fluid=fits inside of its container & changes its size depending on its container. mb=margin bottom 3px. rounded-cirlce=rounded image. -->
+            </div>
+            <div class="col text-left py-5"> <!--Will be one big column with text in the center. py-5=padding on the y axis which is top to bottom-->
+              <h1 class="display-4">About Me</h1> 
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab magnam officia expedita quam commodi, minima vero illo dolorem voluptatibus odit nulla, eius facere, unde aliquam! Dolore voluptatem illum maxime!
+              Voluptas nam neque similique. Odio fuga dolorem illo odit corporis eveniet harum quos eligendi, fugiat velit earum repellendus facilis! Ut officiis voluptate officia. Reprehenderit aliquam repellat magni laudantium consectetur tenetur.
+              Aut, inventore. Atque, esse libero eius voluptatum quibusdam illum incidunt eligendi harum quisquam quo explicabo soluta. Corporis officiis animi laudantium perspiciatis! Sunt, repudiandae quod? Ratione cum deleniti vel earum eaque?</p>
+              <a href="./Assets/Resume.pdf" class="nav-link" download="Resume.pdf"> <button><i class="fas fa-regular fa-download"></i>Download My Resume</button> </a>
+            </div>
+          </div>   
+        </div>
+    </section>
 
 
 
