@@ -17,6 +17,7 @@ cursor: pointer;
     padding-left:5px;
     padding-right:5px;
     font-weight: bold;
+    font-size: 18px;
     
   }
 
@@ -26,8 +27,13 @@ cursor: pointer;
     
 }
 
+.navbar{
+    border-bottom: #d9a5cb9c 2px solid;
+    
+}
+
 header a{
-    color: var(--fcolor);
+    color: rgb(245, 245, 245);
 }
 
 header a:hover{
