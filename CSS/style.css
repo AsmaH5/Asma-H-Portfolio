@@ -1,0 +1,43 @@
+body{
+    background: #3c8594;
+    color: white;
+}
+
+
+.navbar-brand{
+cursor: pointer;
+    
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: bold;
+  }
+
+.navbar {
+    height: 60px;
+    min-height: 100px;
+}
+ul.navbar-nav > li > a {
+    line-height: 60px;
+}
+
+img.logo {
+    padding-top: 0px;
+    width: 100px;
+    height: auto;
+}
+
+#home-section{
+    background: url(../Assets/images/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section  .home-inner /*To bring the home section down- away from the nav bar*/ {
+    padding-top: 100px; 
+    text-align: center;  
+   }
