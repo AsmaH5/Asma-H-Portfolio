@@ -13,12 +13,23 @@ cursor: pointer;
     padding-left:10px;
     padding-right:10px;
     font-weight: bold;
+    
   }
 
 .navbar {
     height: 60px;
     min-height: 100px;
+    
 }
+
+header a{
+    color: #000000f1;
+}
+
+header a:hover{
+    color: #0000008e;
+}
+
 ul.navbar-nav > li > a {
     line-height: 60px;
 }
@@ -37,7 +48,15 @@ img.logo {
     min-height: 700px;
 }
 
-#home-section  .home-inner /*To bring the home section down- away from the nav bar*/ {
+#home-section  .home-inner {
     padding-top: 100px; 
     text-align: center;  
    }
+
+   #home-section .dark-overlay{ 
+    top: 0; 
+    left:0;
+    width: 100%; 
+    min-height: 700px; 
+    background: rgba(0, 0, 0,0.4) ;
+}   
