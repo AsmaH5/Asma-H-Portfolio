@@ -182,3 +182,13 @@ text-decoration: var(--td);
     background-color: #a8a4c97c;
 }
 
+#skills-container{
+    margin-right:70px;
+    margin-left: 70px;
+    margin-top: 70px;
+    min-height: 350px;}
+
+#skills-container .display-4{
+font-weight: 400 ;
+text-decoration: var(--td);
+}     
