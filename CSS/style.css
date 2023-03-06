@@ -21,6 +21,14 @@ cursor: pointer;
     
   }
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231,157,211, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.navbar-toggler {
+    border-color: #d9a5cbd5;
+  } 
+
 .navbar {
     height: 60px;
     min-height: 100px;
@@ -50,7 +58,7 @@ img.logo {
     height: auto;
 }
 
-button{
+#resume button{
     background-color: #A8A4C9;
     font-weight: bold;
     cursor: pointer; 
@@ -66,8 +74,8 @@ button{
     padding-right: 10px;
 }
 
-button:hover{
-    color: var(--hcolor)
+#resume button:hover{
+    background-color: #a8a4c97c;
 }
 
 
@@ -131,7 +139,9 @@ button:hover{
 
 .projects-container p{
     color: black;
-    font-weight: 400;}
+    font-weight: 400;
+    
+}
    
 
 .projects-container .display-4{
@@ -143,12 +153,19 @@ padding-top: 40px;
 } 
 
 .projects{
-    padding: 50px;
-    padding-top: 20px;
+    padding: 0px 30px 30px 30px;
 }   
 
-.content {
-    padding: 50px;
+.cardContainer {
+    margin-top: 20px;
   }
+
+.card{
+    margin: auto;      
+}
+
+.card img{
+    height: 400px;
+}
 
 
