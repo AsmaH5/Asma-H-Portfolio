@@ -7,6 +7,7 @@ body{
     --fcolor:#000000f1;
     --hcolor:#0000008e;
     --bcolor:#3c8594;
+    --td: underline 3px
 }
 .navbar-brand{
 cursor: pointer;
@@ -114,7 +115,7 @@ img.logo {
 
 .about-container .display-4{
     font-weight: 400 ;
-    text-decoration: underline 3px;
+    text-decoration: var(--td);
 } 
 
 .img-fluid{
@@ -130,15 +131,12 @@ img.logo {
 
 #projects-section H1 .projects  {
     margin:70px;
-    }
-    
+    }   
 
 .projects-container p{
     color: black;
     font-weight: 400;  
-
-}
-   
+}   
 
 .projects-container .display-4{
 font-weight: 400 ;
@@ -146,7 +144,7 @@ color: white;
 margin-right:70px;
 margin-left: 70px;
 padding-top: 40px;
-text-decoration: underline 3px;
+text-decoration: var(--td);
 } 
 
 .projects{
@@ -167,4 +165,20 @@ text-decoration: underline 3px;
     height: 400px;
 }
 
+.card a{
+    background-color: #A8A4C9;
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius: 20px;
+    padding: 15px 40px;
+    border: none;
+    transition: all 0.3s ease 0s;  
+    color: var(--fcolor);
+    margin-top: 10px;
+
+}
+
+.card a:hover{
+    background-color: #a8a4c97c;
+}
 
