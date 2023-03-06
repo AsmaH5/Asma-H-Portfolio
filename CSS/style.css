@@ -116,5 +116,38 @@ button:hover{
     height: 400px;
 }
 
+#projects-section{
+    background-color: #654B7E;
+    min-height: 350px;
     
+    
+}
+
+#projects-section H1 .projects  {
+    margin:70px;
+    }
+    
+
+.projects-container p{
+    color: black;
+    font-weight: 400;}
+   
+
+.projects-container .display-4{
+font-weight: 400 ;
+color: white;
+margin-right:70px;
+margin-left: 70px;
+padding-top: 20px;
+} 
+
+.projects{
+    padding: 50px;
+    padding-top: 20px;
+}   
+
+.content {
+    padding: 50px;
+  }
+
 
