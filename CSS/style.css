@@ -17,8 +17,7 @@ cursor: pointer;
     padding-left:5px;
     padding-right:5px;
     font-weight: bold;
-    font-size: 18px;
-    
+    font-size: 18px; 
   }
 
 .navbar-toggler-icon {
@@ -31,13 +30,11 @@ cursor: pointer;
 
 .navbar {
     height: 60px;
-    min-height: 100px;
-    
+    min-height: 100px;   
 }
 
 .navbar{
-    border-bottom: #d9a5cb9c 2px solid;
-    
+    border-bottom: #d9a5cb9c 2px solid;   
 }
 
 header a{
@@ -117,6 +114,7 @@ img.logo {
 
 .about-container .display-4{
     font-weight: 400 ;
+    text-decoration: underline 3px;
 } 
 
 .img-fluid{
@@ -127,9 +125,7 @@ img.logo {
 
 #projects-section{
     background-color: #654B7E;
-    min-height: 350px;
-    
-    
+    min-height: 350px;       
 }
 
 #projects-section H1 .projects  {
@@ -139,8 +135,8 @@ img.logo {
 
 .projects-container p{
     color: black;
-    font-weight: 400;
-    
+    font-weight: 400;  
+
 }
    
 
@@ -150,6 +146,7 @@ color: white;
 margin-right:70px;
 margin-left: 70px;
 padding-top: 40px;
+text-decoration: underline 3px;
 } 
 
 .projects{
@@ -158,10 +155,12 @@ padding-top: 40px;
 
 .cardContainer {
     margin-top: 20px;
+    text-align: center;
   }
 
 .card{
-    margin: auto;      
+    margin: auto; 
+    background-color: rgba(255, 255, 255, 0.863);     
 }
 
 .card img{
