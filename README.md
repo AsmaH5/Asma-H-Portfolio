@@ -1,14 +1,15 @@
 # Asma-H-Portfolio
 
-This is portfolio demo using Bootstrap 4.
+This is portfolio demo using Bootstrap.
 
 ## Aim:
-To showcase what I have learnt so far about: CSS Bootstrap 4.
+To showcase what I have learnt so far about: CSS Bootstrap and to recreate my portfolio site using Bootstrap.
 
 ## Built with:
 * HTML
 * CSS
-* Bootstrap 4
+* Bootstrap
+* Javascript
 * Lorem Ipsum
 
 
