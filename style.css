@@ -12,6 +12,7 @@ body{
     --td: underline 3px;
     --btncol:#A8A4C9;
     --btnhcol: #a8a4c97c;
+    --fweight: 400;
 }
 .navbar-brand{
 cursor: pointer;  
@@ -28,10 +29,13 @@ cursor: pointer;
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231,157,211, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+       
+}
   
 .navbar-toggler {
-    border-color: #d9a5cbd5;
+    border-color: #d9a5cbd5;  
+    position: absolute;
+   
   } 
 
 .navbar {
@@ -44,7 +48,6 @@ cursor: pointer;
     width: 100%;
     z-index: 1;
 }
-
 
 .navbar{
     border-bottom: #d9a5cb9c 2px solid;   
@@ -124,7 +127,7 @@ img.logo {
 
 .about-container p{
         color: black;
-        font-weight: 400;
+        font-weight: var(--fweight);
     }   
 
 .about-container .display-4{
@@ -149,7 +152,7 @@ img.logo {
 
 .projects-container p{
     color: black;
-    font-weight: 400;  
+    font-weight: var(--fweight);  
 }   
 
 .projects-container .display-4{
@@ -167,8 +170,7 @@ img.logo {
 
 .cardContainer {
     margin-top: 20px;
-    text-align: center;
-   
+    text-align: center; 
   }
 
 .card{
@@ -211,7 +213,7 @@ img.logo {
     }
 
 #skills-container .display-4{
-    font-weight: 400 ;
+    font-weight: var(--fweight) ;
     text-decoration: var(--td);
     margin-bottom: 20px;
 
