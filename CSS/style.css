@@ -37,7 +37,7 @@ cursor: pointer;
 .navbar {
     height: 55px;
     min-height: 90px; 
-    background-color: #915F73;     
+    background-color: #915f73d5;     
     overflow: hidden;      
     position: fixed;
     top: 0px;
