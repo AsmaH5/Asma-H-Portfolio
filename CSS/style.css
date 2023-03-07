@@ -7,6 +7,7 @@ body{
 :root{
     --fcolor:#000000f1;
     --hcolor:#0000008e;
+    --tcolor:rgba(255, 255, 255, 0.856);
     --bcolor:#3c8594;
     --td: underline 3px
 }
@@ -195,3 +196,15 @@ text-decoration: var(--td);
 margin-bottom: 20px;
 }     
 
+.list-group-item{
+    background-color:#483451;
+    border: none;
+    margin-bottom: auto;
+    margin-top: 10px;
+    color: var(--tcolor);
+}
+
+.badge{
+    color: var(--tcolor);
+    font-size: 16px;
+}
