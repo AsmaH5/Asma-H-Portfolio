@@ -189,7 +189,7 @@ img.logo {
 }
 
 #skills-section{
-    min-height: 550px;
+    min-height: 500px;
 }
 #skills-container {
     margin-right:70px;
@@ -209,10 +209,9 @@ margin-bottom: 20px;
     justify-content: center;
     margin-top: 20px;
     margin-right:350px;
-    margin-left: 350px;
- 
-    
+    margin-left: 350px;   
 }
+
 .list-group-item{
     background-color:#483451;
     border: none;
@@ -234,8 +233,11 @@ margin-bottom: 20px;
 #main-footer{
     background-color: var(--bcolor);
     color: var(--tcolor);
-    margin-top: 50px;
-    min-height: 200px;
+    min-height: 230px;
+}
+
+#main-footer h3{
+    margin-top: 20px;
 }
 
 #main-footer button{
