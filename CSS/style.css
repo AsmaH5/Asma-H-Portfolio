@@ -9,7 +9,8 @@ body{
     --hcolor:#0000008e;
     --tcolor:rgba(255, 255, 255, 0.856);
     --bcolor:#654B7E;
-    --td: underline 3px
+    --td: underline 3px;
+    --btncol:#A8A4C9;
 }
 .navbar-brand{
 cursor: pointer;
@@ -59,7 +60,7 @@ img.logo {
 }
 
 #resume button, .modal-footer button{
-    background-color: #A8A4C9;
+    background-color: var(--btncol);
     font-weight: bold;
     cursor: pointer; 
     border-radius: 35px;
@@ -229,5 +230,18 @@ margin-bottom: 20px;
 #main-footer{
     background-color: var(--bcolor);
     color: var(--tcolor);
+}
+
+#main-footer button{
+    background-color: var(--btncol);
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius: 15px;
+    padding: 15px 25px;
+    border: none;
+    transition: all 0.3s ease 0s;  
+    color: var(--fcolor);
+    margin-top: 10px;
+
 }
 
