@@ -8,7 +8,7 @@ body{
     --fcolor:#000000f1;
     --hcolor:#0000008e;
     --tcolor:rgba(255, 255, 255, 0.856);
-    --bcolor:#3c8594;
+    --bcolor:#654B7E;
     --td: underline 3px
 }
 .navbar-brand{
@@ -127,7 +127,7 @@ img.logo {
 }
 
 #projects-section{
-    background-color: #654B7E;
+    background-color: var(--bcolor);
     min-height: 350px;       
 }
 
@@ -224,4 +224,9 @@ margin-bottom: 20px;
     border-radius: 50px;
     border: #485c3b 3px solid;
     background-color: #647e4bd7;
+}
+
+#main-footer{
+    background-color: var(--bcolor);
+    color: var(--tcolor);
 }
