@@ -41,5 +41,6 @@ To use this Portfolio-demo, you can review the each project by  pressing the 'Cl
 * [CSS-Tricks Min-heigh](https://css-tricks.com/almanac/properties/m/min-height/)
 * [Images](https://unsplash.com/)
 * [stack overflow](https://stackoverflow.com/)
+* [Figma](https://www.figma.com/)
 
 
