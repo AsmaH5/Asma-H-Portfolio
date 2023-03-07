@@ -58,7 +58,7 @@ img.logo {
     height: auto;
 }
 
-#resume button{
+#resume button, .modal-footer button{
     background-color: #A8A4C9;
     font-weight: bold;
     cursor: pointer; 
@@ -230,3 +230,4 @@ margin-bottom: 20px;
     background-color: var(--bcolor);
     color: var(--tcolor);
 }
+
