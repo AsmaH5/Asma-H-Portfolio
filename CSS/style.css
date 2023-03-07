@@ -1,6 +1,7 @@
 body{
     background: white;
     color: black;
+    
 }
 
 :root{
@@ -148,7 +149,7 @@ text-decoration: var(--td);
 } 
 
 .projects{
-    padding: 0px 30px 30px 30px;
+    padding: 0px 30px 60px 30px;
 }   
 
 .cardContainer {
@@ -182,13 +183,15 @@ text-decoration: var(--td);
     background-color: #a8a4c97c;
 }
 
-#skills-container{
+#skills-container {
     margin-right:70px;
     margin-left: 70px;
-    margin-top: 70px;
+    margin-top: 50px;
     min-height: 350px;}
 
 #skills-container .display-4{
 font-weight: 400 ;
 text-decoration: var(--td);
+margin-bottom: 20px;
 }     
+
