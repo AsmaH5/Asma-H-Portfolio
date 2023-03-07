@@ -143,12 +143,12 @@ img.logo {
 }   
 
 .projects-container .display-4{
-font-weight: 400 ;
-color: white;
-margin-right:70px;
-margin-left: 70px;
-padding-top: 40px;
-text-decoration: var(--td);
+    font-weight: 400 ;
+    color: white;
+    margin-right:70px;
+    margin-left: 70px;
+    padding-top: 40px;
+    text-decoration: var(--td);
 } 
 
 .projects{
@@ -158,11 +158,13 @@ text-decoration: var(--td);
 .cardContainer {
     margin-top: 20px;
     text-align: center;
+   
   }
 
 .card{
     margin: auto; 
-    background-color: rgba(255, 255, 255, 0.863);     
+    background-color: rgba(255, 255, 255, 0.863);
+      
 }
 
 .card img{
@@ -208,6 +210,7 @@ margin-bottom: 20px;
     margin-top: 20px;
     margin-right:350px;
     margin-left: 350px;
+ 
     
 }
 .list-group-item{
