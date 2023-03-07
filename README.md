@@ -22,7 +22,7 @@ To showcase what I have learnt so far about: CSS Bootstrap and to recreate my po
 * Contact Me
 
 ## Usage:
-To use this Portfolio-demo, you can review the each project by  pressing the 'Click Here' button. You can also use the navigation bar to jump to each section on the web page. You can also  you  downloand my demo resume in the 'About Me' section as well as contact me by using the 'Contact Me' button at bottom of the page - where you will be prompated by a modal (pop-up).
+To use this Portfolio-demo, you can review the each project by  pressing the 'Click Here' button. You can also use the navigation bar to jump to each section on the web page. You can also  downloand my demo resume in the 'About Me' section as well as contact me by using the 'Contact Me' button at bottom of the page - where you will be prompated by a modal (pop-up).
 
 ## Profiles for Inspirations:
 ![Inspo3](https://user-images.githubusercontent.com/97250633/223317676-38237324-7ef1-421a-b85c-541bad329e7b.png)
