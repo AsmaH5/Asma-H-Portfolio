@@ -184,27 +184,44 @@ text-decoration: var(--td);
     background-color: #a8a4c97c;
 }
 
+#skills-section{
+    min-height: 500px;
+}
 #skills-container {
     margin-right:70px;
     margin-left: 70px;
     margin-top: 50px;
-    min-height: 350px;}
+    }
 
 #skills-container .display-4{
 font-weight: 400 ;
 text-decoration: var(--td);
 margin-bottom: 20px;
+
 }     
 
+.list-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right:350px;
+    margin-left: 350px;
+    
+}
 .list-group-item{
     background-color:#483451;
     border: none;
     margin-bottom: auto;
     margin-top: 10px;
     color: var(--tcolor);
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .badge{
     color: var(--tcolor);
     font-size: 16px;
+    border-radius: 50px;
+    border: #485c3b 3px solid;
+    background-color: #647e4bd7;
 }
