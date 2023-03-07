@@ -177,6 +177,9 @@ img.logo {
       
 }
 
+.card-body{
+    height: 204px;
+}
 .card img{
     height: 400px;
 }
@@ -208,9 +211,9 @@ img.logo {
     }
 
 #skills-container .display-4{
-font-weight: 400 ;
-text-decoration: var(--td);
-margin-bottom: 20px;
+    font-weight: 400 ;
+    text-decoration: var(--td);
+    margin-bottom: 20px;
 
 }     
 
